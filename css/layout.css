@@ -42,3 +42,17 @@
 .first {
   margin-left: 0%;
 }
+
+.space {
+  clear: both;
+  margin-bottom: 2%;
+}
+
+.space:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
